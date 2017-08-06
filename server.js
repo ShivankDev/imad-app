@@ -17,7 +17,7 @@ app.get('/artice-one',function (req, res) {
 });
 app.get('/artice-two',function (req, res) {
     res.send("You are served with article two");
-})
+});
 app.get('/artice-three',function (req, res) {
     res.send("You are served with article three");
 });
