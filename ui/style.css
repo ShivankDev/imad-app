@@ -49,3 +49,11 @@ body {
     font-family: arial;
     font-style: bold;
 }
+.first
+{
+ box-shadow: 10px 10px 5px #888888;   
+}
+.second
+{
+ box-shadow: 10px 10px 5px #888888;    
+}
