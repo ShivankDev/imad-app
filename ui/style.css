@@ -3,7 +3,6 @@ body {
     background-color: teal
     margin-top: 75px;
 }
-
 .center {
     text-align: center;
 }
@@ -18,5 +17,13 @@ body {
 
 .img-medium {
     height: 200px;
+}
+.personal 
+{
+    text-align: center;
+    font-family: sans-serif;
+    color: blue;
+    font-weight: bolder;
+    
 }
 
