@@ -60,6 +60,6 @@ body {
 .procontainer
 {
     height: 100px;
-    width: 500px;
+    width: 100%;
     background-color: red;
 }
