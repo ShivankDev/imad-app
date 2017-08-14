@@ -35,4 +35,17 @@ body {
     text-decoration: underline;
     
 }
-
+.work
+{
+    text-align: center;
+    color: lightred;
+    font-family: arial;
+    font-style: bold;
+}
+.per
+{
+    text-align: center;
+    color: lightred;
+    font-family: arial;
+    font-style: bold;
+}
