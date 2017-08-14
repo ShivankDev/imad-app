@@ -6,7 +6,7 @@
     <body>
         <div class="container">
         <div class="center">
-    <img src="https://scontent.fagr1-1.fna.fbcdn.net/v/t1.0-9/20620900_1879293079057610_4360098038891868008_n.jpg?oh=5b53a5cf7761ca0a86da609cb63a6c6b&oe=5A2AEEED" height="200" width="200" class="img-medium" onclick="addCounter()"/>
+    <img src="https://scontent.fagr1-1.fna.fbcdn.net/v/t1.0-9/20620900_1879293079057610_4360098038891868008_n.jpg?oh=5b53a5cf7761ca0a86da609cb63a6c6b&oe=5A2AEEED" height="200" width="200" class="img-medium" onclick="addCounter()" id="counter"/>
     <h2 id="result" style="text-alight:right;"></h2>
         </div>
         <hr class="first"/>
@@ -33,8 +33,14 @@
         <script>
          function addCounter()
          {
-             var a = 0
-             var b = document.getElementById('result').innerHTML = a + 1;
+             var button = document.getElementById('counter');
+             var counter = 0;
+             button.onclick = function() {
+                 counter = counter + 1;
+                 var count  = document.getElementById('result'); 
+                 count.innerHTML = counter.toString();
+                 
+             }
         }
         </script>
     </body>
