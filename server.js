@@ -25,6 +25,12 @@ app.get('/artice-three',function (req, res) {
 app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
 });
+names = [];
+app.get('/submit-names/:names', function (req, res) {
+    var name = req.params.name;
+    names.push[name];
+    res.send(json.stringfy(names));
+});
 
 
 // Do not change port, otherwise your app won't run on IMAD servers
