@@ -29,7 +29,7 @@ names = [];
 app.get('/submit-names/:names', function (req, res) {
     var name = req.params.name;
     names.push[name];
-    res.send(json.stringfy(names));
+    res.send(Json.stringfy(names));
 });
 
 
